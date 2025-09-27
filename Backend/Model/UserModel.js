@@ -10,7 +10,6 @@ const userSchema = new mongoose.Schema({
     },
     password: {
         type: String,
-        // Password optional hai kyunki Google login mein password nahi hota
         required: false 
     },
     email: {
