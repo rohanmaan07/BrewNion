@@ -4,9 +4,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "../Pages/Login";
 import SignUp from "../Pages/SignUp";
 import HomePage from "../Component/HomePage";
+import Navbar from "../Component/Navbar";
+
+
 
 function App() {
   return (
+    <>
+    <Navbar/>
     <Router>
       <div className="bg-gray-900 min-h-screen text-white">
         <Routes>
@@ -16,6 +21,7 @@ function App() {
         </Routes>
       </div>
     </Router>
+    </>
   );
 }
 
