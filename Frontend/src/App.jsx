@@ -13,7 +13,7 @@ function App() {
     <>
     <Navbar/>
     <Router>
-      <div className="bg-gray-900 min-h-screen text-white">
+      <div className="bg-[#F7F3EE] min-h-screen text-white">
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/login" element={<Login />} />
