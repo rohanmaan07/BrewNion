@@ -5,6 +5,7 @@ import Login from "../Pages/Login";
 import SignUp from "../Pages/SignUp";
 import HomePage from "../Component/HomePage";
 import Navbar from "../Component/Navbar";
+import About from "../Essential/About";
 
 
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<HomePage/>} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/about" element={<About/>}/>
         </Routes>
       </div>
     </Router>
